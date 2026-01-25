@@ -1,0 +1,106 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Prevent white background on overscroll */
+html,
+body {
+  background-color: #000000;
+  min-height: 100vh;
+}
+
+#root {
+  background-color: #000000;
+  min-height: 100vh;
+}
+
+/* Optimized animations for better performance */
+@keyframes float {
+  0%, 100% { transform: translateY(0px) translateZ(0); }
+  50% { transform: translateY(-8px) translateZ(0); }
+}
+
+@keyframes glow-pulse {
+  0%, 100% { opacity: 0.3; transform: scale(1) translateZ(0); }
+  50% { opacity: 0.6; transform: scale(1.02) translateZ(0); }
+}
+
+@keyframes drift {
+  0%, 100% { transform: translate(0, 0) translateZ(0); }
+  50% { transform: translate(6px, -8px) translateZ(0); }
+}
+
+/* Simplified enhanced glow animations for performance */
+@keyframes enhanced-glow-pulse {
+  0%, 100% { 
+    opacity: 0.15; 
+    transform: scale(1) translateZ(0);
+  }
+  50% { 
+    opacity: 0.4; 
+    transform: scale(1.05) translateZ(0);
+  }
+}
+
+/* Simplified animations for better performance */
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.animate-glow-pulse {
+  animation: glow-pulse 5s ease-in-out infinite;
+}
+
+.animate-drift {
+  animation: drift 8s ease-in-out infinite;
+}
+
+.animate-enhanced-pulse {
+  /* Disabled for performance */
+}
+
+/* Simplified backdrop effect */
+.backdrop-glossy {
+  /* Removed backdrop-filter for performance */
+}
+
+/* Instagram gradient animations */
+@keyframes gradient-shift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.animate-gradient {
+  background-size: 200% 200%;
+  animation: gradient-shift 3s ease infinite;
+}
+
+.bg-instagram-gradient {
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+}
+
+.bg-instagram-gradient-hover {
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 15%, #dc2743 35%, #cc2366 60%, #bc1888 85%, #8a3ab9 100%);
+}
+
+/* Enhanced glassmorphism effects */
+.glass-effect {
+  background: rgba(255, 255, 255, 0.02);
+  backdrop-filter: blur(12px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 
+    0 0 0 1px rgba(255, 255, 255, 0.05),
+    0 8px 32px rgba(0, 0, 0, 0.12),
+    inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+
+.glass-shine::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
+}
