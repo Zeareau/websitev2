@@ -76,7 +76,7 @@ export default function AboutPage() {
       borderColor: "border-cyan-500/20"
     },
     {
-      date: "2022",
+      date: "2023",
       title: "Started at GWU",
       description: "Began studying politcal science, unknowing the tech journey that lay ahead.",
       color: "bg-green-400",
@@ -84,7 +84,7 @@ export default function AboutPage() {
       borderColor: "border-green-500/20"
     },
     {
-      date: "2018-2022",
+      date: "2019-2023",
       title: "Hayfield High School",
       description: "First discovered passion for political science and was the president of my school's advocacy club.",
       color: "bg-yellow-400",

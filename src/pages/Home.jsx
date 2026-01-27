@@ -160,7 +160,7 @@ export default function Home() {
               <Pill>4x AWS Certified</Pill>
               <span className="inline-flex items-center rounded-full border border-white/10 bg-white/5 px-4 py-1.5 text-sm text-zinc-200">
                 Incoming @ 
-                <img src={deloitte} alt="Deloitte" className="h-4 ml-1" />
+                <img src={deloitte} alt="Deloitte" className="h-6 ml-2" />
               </span>
             </div>
           </div>
