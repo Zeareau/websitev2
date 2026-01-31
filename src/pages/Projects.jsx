@@ -7,6 +7,7 @@ import pjisengard from "../assets/pjisengard.png";
 import terraformec2 from "../assets/terraformec2.png";
 import linuxvm from "../assets/linuxvm.png";
 import website from "../assets/website.png";
+import chatbot from "../assets/chatbot.png";
 import Pane from "../ui/Pane";
 
 export default function ProjectsPage() {
@@ -40,13 +41,22 @@ export default function ProjectsPage() {
       color: "orange"
     },
     {
+      title: "PyTorch NLTK Chatbot",
+      category: "AI/ML",
+      description: "Text preprocessing, tokenization, lemmatization, and a simple neural network for intent classification.",
+      stack: ["AI/ML", "Machine Learning", "Python"],
+      link: "https://github.com/Zeareau/NLTK-PyTorch-Chatbot",
+      image: chatbot,
+      color: "purple"
+    },
+    {
       title: "AWS Cloud Club Workshops",
       category: "Multiple",
       description: "Collection of workshops from the AWS Cloud Club: EC2 in VPC...",
       stack: ["AWS", "Cloud", "Full-Stack"],
       link: "https://instagram.com/gwucloud",
       image: awscloudclub,
-      color: "purple"
+      color: "green"
     },
     {
       title: "GWU SITA Workshops",
@@ -55,7 +65,7 @@ export default function ProjectsPage() {
       stack: ["React", "Vite", "TailwindCSS"],
       link: "https://instagram.com/gwusita",
       image: gwusita,
-      color: "green"
+      color: "pink"
     },
     {
       title: "gwusita.com",
@@ -64,7 +74,7 @@ export default function ProjectsPage() {
       stack: ["React", "Vite", "TailwindCSS"],
       link: "https://gwusita.com",
       image: gwusitasite,
-      color: "pink"
+      color: "cyan"
     },
     {
       title: "Project Isengard",
@@ -73,7 +83,7 @@ export default function ProjectsPage() {
       stack: ["AWS", "Networking", "Security"],
       link: "https://chrisenriquez.org",
       image: pjisengard,
-      color: "cyan"
+      color: "orange"
     },
     {
       title: "Terraform EC2",
@@ -82,7 +92,7 @@ export default function ProjectsPage() {
       stack: ["Terraform", "AWS", "Infrastructure"],
       link: "https://github.com/Zeareau/-Terraform-EC2",
       image: terraformec2,
-      color: "orange"
+      color: "purple"
     },
     {
       title: "LinuxVM",
@@ -91,7 +101,7 @@ export default function ProjectsPage() {
       stack: ["Linux", "IaC", "Virtual Machines"],
       link: "https://github.com/Zeareau/Linux-VM",
       image: linuxvm,
-      color: "purple"
+      color: "green"
     },
     {
       title: "chrisenriquez.org",
@@ -100,7 +110,7 @@ export default function ProjectsPage() {
       stack: ["React", "Vite", "TailwindCSS"],
       link: "https://chrisenriquez.org",
       image: website,
-      color: "green"
+      color: "pink"
     },
   ];
 
