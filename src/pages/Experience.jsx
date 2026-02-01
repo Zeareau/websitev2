@@ -59,7 +59,7 @@ export default function ExperiencePage() {
     },
     {
       title: "IT Support Assitant",
-      company: "Technical Support Assistant",
+      company: "GWU IT Department",
       period: "June 2025-August 2025",
       description: "Supported the entire engineering, public health, and library departments by resolving 200+ technical issues monthly with a 99% satisfaction rate.",
       skills: ["AWS", "Cloud Architecture", "Training"],
