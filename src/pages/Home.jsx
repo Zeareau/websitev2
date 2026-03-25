@@ -323,7 +323,7 @@ export default function Home() {
               </div>
               <div className="text-right">
                 <div className="text-3xl font-bold bg-gradient-to-r from-orange-400 via-red-400 to-pink-400 bg-clip-text text-transparent">
-                  50+
+                  100+
                 </div>
                 <div className="text-zinc-300 text-sm font-medium">Members</div>
               </div>
