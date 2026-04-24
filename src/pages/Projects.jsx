@@ -8,6 +8,7 @@ import terraformec2 from "../assets/terraformec2.png";
 import linuxvm from "../assets/linuxvm.png";
 import website from "../assets/website.png";
 import chatbot from "../assets/chatbot.png";
+import habit from "../assets/habit.png";
 import Pane from "../ui/Pane";
 
 export default function ProjectsPage() {
@@ -25,10 +26,10 @@ export default function ProjectsPage() {
     {
       title: "Bilder",
       category: "App",
-      description: "Constructing...",
-      stack: ["iOS", "Full-Stack", "Swift"],
-      link: "#",
-      image: constructing,
+      description: "Full-stack, gamified habit building app to encourage, reward, and sustain heathy habit building",
+      stack: ["Google Federation", "Supabase", "React.JS"],
+      link: "https://github.com/Zeareau/Bilder",
+      image: habit,
       color: "cyan"
     },
     {
