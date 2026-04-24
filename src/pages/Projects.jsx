@@ -24,21 +24,21 @@ export default function ProjectsPage() {
 
   const projects = [
     {
+      title: "Chrisp",
+      category: "Business",
+      description: "#",
+      stack: ["#", "#", "#"],
+      link: "#",
+      image: constructing,
+      color: "cyan"
+    },
+    {
       title: "Bilder",
       category: "App",
       description: "Full-stack, gamified habit building app to encourage, reward, and sustain heathy habit building",
       stack: ["Google Federation", "Supabase", "React.JS"],
       link: "https://github.com/Zeareau/Bilder",
       image: habit,
-      color: "cyan"
-    },
-    {
-      title: "Origins Research",
-      category: "AI/ML",
-      description: "Constructing...",
-      stack: ["AI/ML", "Machine Learning", "Python"],
-      link: "#",
-      image: constructing,
       color: "orange"
     },
     {
